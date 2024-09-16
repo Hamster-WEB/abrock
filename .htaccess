@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?abrock\.ru$ [NC]
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule ^(.*) https://abrock.ru/$1 [R=301,L]

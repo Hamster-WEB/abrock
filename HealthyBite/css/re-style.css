@@ -1,0 +1,21 @@
+header {
+    background-color: #30A435;
+    transition: all 0.5s;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+#header-logoId {
+    fill: #30A435;
+}
+
+#header-logoId2 {
+    fill: #30A435;
+}
+
+.logo-wrap {
+    background: #2FE53C;
+    transition: all 0.6s;
+}
+.cart-logo-wrap {
+    background: #2FE53C;
+    transition: all 0.5s;
+}
